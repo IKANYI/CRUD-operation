@@ -1,4 +1,5 @@
 import { Router } from 'express';
+import pool from '../db.config.js'
  
 const router = Router();
 
@@ -6,11 +7,11 @@ router.get('/', (req, res) => {
   res.send("getting all users")
 })
 
-router.get('/:id', (req, res) => {
+router.get(':id', (req, res) => {
   res.send("getting a single user")
 })
 
-router.post('/:id', (req, res) => {
+router.post(':id', (req, res) => {
   res.send("Creating a new user")
 });
 
