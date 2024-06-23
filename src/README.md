@@ -20,6 +20,17 @@ This is a Node.js API project for managing products using PostgreSQL. The API al
 
 ### Step 1: Clone the Repository
 
-```bash
-git clone https://github.com/your-username/product-management.git
-cd product-management
+
+git clone https://github.com/IKANYI/CRUD-operation
+cd CRUD-operation 
+
+### Step 2: Install Dependencies
+npm install
+
+### Step 3: Configure Environment Variables
+
+### Step 4: Set Up PostgreSQL Database
+
+### step 5: Create the Node.js Server
+
+### step 6: Start the Node.js Server
